@@ -1,0 +1,34 @@
+$CATEGORY: RWD/CSS
+
+::Font Family::Which CSS property is used to change the font of text? {
+=font-family
+~text-font
+~font-style
+~text-style
+}
+
+$CATEGORY: RWD/AVD
+
+::Relative Positioning::When the position of an element is set to relative, it allows you to specify how CSS should move the element relative to what? {
+    =Its normal position
+    ~The viewport
+    ~Its parent element
+    ~The document body
+}
+
+$CATEGORY: RWD/AA
+
+::CSS3 Color Property::Which property was introduced by CSS3 to be an alternative way to pick a color by directly stating hue, saturation, and lightness? {
+    =hsl()
+    ~rgb()
+    ~hex
+    ~color
+}
+
+$CATEGORY: RWD/RWDP
+
+::Absolute Positioning::True or False: Absolute positioning places an element at a specific position relative to its nearest positioned ancestor. {T}
+
+$CATEGORY: RWD/FB
+
+::Flexbox for Page Layout::True or False: CSS Flexbox is not suitable for designing flexible and responsive page layouts. {F}

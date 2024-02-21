@@ -1,0 +1,167 @@
+// Module 1 - RWD
+
+// CSS
+
+$CATEGORY: RWD/AA
+
+::Purpose of Different Heading Elements::{What is the purpose of HTML having 6 different heading elements?{
+    ~To provide variety in text formatting
+    ~To help with search engine optimization
+    =To organize content in a hierarchical manner for better accessibility
+    ~To make the text more appealing visually
+}}
+
+::Main Content Wrapper Element::{What element should only be used once in a page and is used to wrap the primary content of the page?{
+    =<main>
+    ~<section>
+    ~<div>
+    ~<article>
+}}
+
+::Navigation Links Wrapper Element::{This tag is meant to wrap around the main navigation links of a page. What is it?{
+    =<nav>
+    ~<header>
+    ~<footer>
+    ~<div>
+}}
+
+::Label Attributes Match::{Which attributes of the label element need to have the same value to ensure accessibility?{
+    =for and id
+    ~name and class
+    ~type and value
+    ~href and src
+}}
+
+::Sectioning Element::{True or False: The <section> tag is used for sectioning and is wrapped around independent, self-contained content.}{T}
+
+::Navigation Intro Content::{True or False: The <header> tag should be used to wrap introductory information or navigation links at the top of multiple pages.}{T}
+
+::Copyright Element::{True or False: The <footer> element is primarily used to contain copyright information or links to related documents at the bottom of a page.}{T}
+
+::Figure Caption Element::{True or False: The <figcaption> tag is used inside the <figure> element to wrap around the caption of a visual representation.}{T}
+
+::HTML Element for Primary Content::{What element should only be used once in a page, and is used to wrap the primary content of the page? {=<main>}}
+
+::Element for Sectioning::{This tag is used for sectioning, and is wrapped around independent, self-contained content. What is it? {=<section>}}
+
+::Navigation Links Wrapper::{This tag is meant to wrap around the main navigation links of a page. What is it? {=<nav>}}
+
+::Label and Form Control Connection::{The ____________ tag wraps the text for a specific form control item, usually the name or label for a choice. {=label}}
+
+::Accessibility Features Match::{Match the following elements with their accessibility features.{
+    =<main> -> The primary content wrapper for a page
+    =<nav> -> Wraps around main navigation links
+    =<header> -> Contains introductory information or navigation links
+    =<footer> -> Used for copyright information at the bottom of a page
+    =<label> -> Wraps text for form control items for better readability
+}}
+
+::Accessibility Tools Match::{Match the following accessibility tools with their descriptions.{
+    =accesskey -> Specifies a shortcut key to activate/focus an element
+    =color contrast -> Avoiding colorblindness issues
+    =screen reader friendly link text -> Should be brief, but descriptive
+}}
+
+::Accessible Date Picker Type::{What type attribute should you set to add an accessible date picker to a form?{
+    ~text
+    ~email
+    =date
+    ~datetime-local
+}}
+
+::Colorblindness Avoidance::{Colorblindness issues can be avoided by using sufficient _________________.{
+    ~fonts
+    ~animations
+    =contrast
+    ~padding
+}}
+
+::Link Text for Screen Readers::{In order to give links more meaning to those using a screen reader, your link text should:{
+    ~Be general, like "click here" or "read more"
+    =Be brief, but descriptive, like "go to google.com" or "Learn more about us here"
+    ~It does not matter because the screen reader only reads the href attribute of links
+    ~Anything you would like. Catch the user's attention
+}}
+
+::Accessibility Shortcut Key::{This attribute specifies a shortcut key to activate or bring focus to an element, which is very helpful to keyboard-only users. What is it?{
+    ~accessbutton
+    =accesskey
+    ~keydown
+    ~buttonpress
+}}
+
+::Main Element Usage::{True or False: The <main> element should be used multiple times on a page to highlight all key sections.}{F}
+
+::Figure Element for Captions::{True or False: The <figure> element is used specifically for wrapping images and should not include captions.}{F}
+
+::Accessibility of Heading Elements::{True or False: Using heading elements (<h1> to <h6>) in order provides navigational shortcuts for screen reader users.}{T}
+
+::Input Element for Accessibility::{True or False: An <input> element with type="text" is the best choice for creating accessible forms.}{F}
+
+::Element for Grouping Radio Buttons::{What element surrounds an entire grouping of radio buttons to show that these choices are part of a set?{=<fieldset>}}
+
+::Element for Time or Date::{This element is used to wrap a date or time on a page. What is it?{=<time>}}
+
+::Form Control Item Text Wrapper::{The ____________ tag wraps the text for a specific form control item, usually the name or label for a choice. {=label}}
+
+::Accessibility Feature for Keyboard Users::{This attribute specifies a shortcut key to activate or bring focus to an element, which is very helpful to keyboard-only users. What is it?{=accesskey}}
+
+::Match Accessibility Elements::{Match the following elements with their purpose in enhancing accessibility.{
+    =<main> -> Used to wrap the primary content of the page
+    =<nav> -> Meant to wrap around the main navigation links of a page
+    =<label> -> Ties meaning to form control items, enhancing readability and interaction
+    =<time> -> Used to wrap a date or time on a page for better semantic understanding
+    =contrast -> Ensures text and background have sufficient difference to be readable by those with color vision deficiencies
+    =accesskey -> Provides a shortcut key for activating or focusing an element, aiding keyboard navigation
+}}
+
+::Semantic HTML::{Why is using semantic HTML important for accessibility?{
+    ~It makes web pages load faster
+    =It provides more meaningful structure and helps assistive technologies understand the page
+    ~It enhances the SEO of the website only
+    ~It simplifies the CSS styling process
+}}
+
+::ARIA Role Attribute::{What does the 'role' attribute do in terms of web accessibility?{
+    =It defines the role of an element to assistive technologies
+    ~It specifies the styling role of an element
+    ~It indicates the hierarchical role of an element in the document structure
+    ~It assigns a specific behavior to an element in JavaScript
+}}
+
+::Audio Content Alternative::{For multimedia content like audio and video, what is essential to include for accessibility?{
+    ~A detailed description of the video content in the metadata
+    =Transcripts for audio and captions for video
+    ~An autoplay attribute to ensure all users start the multimedia content at the same time
+    ~High contrast color schemes for video content
+}}
+
+::Keyboard Navigation::{Which attribute is important to include in web elements to ensure keyboard navigation is possible for users with mobility impairments?{
+    =tabindex
+    ~role
+    ~alt
+    ~aria-label
+}}
+
+::Use of Alt Text::{True or False: Providing descriptive alt text for images is unnecessary if the image is described within the context of the surrounding text.}{F}
+
+::ARIA Landmarks::{True or False: ARIA landmarks (such as aria-label and aria-labelledby) are used to define regions of a page, making it easier for screen reader users to navigate.}{T}
+
+::Screen Reader Software::{True or False: Screen reader software is capable of interpreting and vocalizing only text content, not attributes or elements.}{F}
+
+::Focus Management::{True or False: Proper focus management, including the use of tabindex, is crucial for users who rely on keyboard navigation.}{T}
+
+::Form Label Importance::{Why is it important to associate labels with form input elements? {=For accessibility, labels provide context and improve the usability for screen reader users.}}
+
+::Importance of Document Structure::{Why is a well-structured document important for accessibility? {=It helps assistive technologies navigate and interpret the content of the page.}}
+
+::Role of ARIA in Accessibility::{What role does ARIA play in enhancing web accessibility? {=ARIA provides additional context and meaning to assistive technologies.}}
+
+::Keyboard Navigation Importance::{Why is keyboard navigation an important aspect of web accessibility? {=It ensures users with mobility impairments can navigate the website.}}
+
+::Match Accessibility Techniques::{Match the following techniques with their accessibility benefit.{
+    =Semantic HTML -> Enhances understanding of page structure for assistive technologies
+    =Alt text for images -> Provides descriptions for visual content to screen reader users
+    =ARIA roles -> Adds semantic information to assistive technologies
+    =Keyboard navigation -> Ensures access for users with mobility impairments
+}}

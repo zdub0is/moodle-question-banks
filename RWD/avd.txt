@@ -1,0 +1,143 @@
+// Module 1 - RWD
+
+// CSS
+
+$CATEGORY: RWD/AVD
+
+::Underline Tag::To signify that a section of text is important, or something to remember, you can underline it by wrapping it with which tag? {
+    =<u>
+    ~<strong>
+    ~<em>
+    ~<mark>
+}
+
+::Opacity Value::To make an element completely transparent, what value should be provided to its opacity property? {
+    =0
+    ~1
+    ~100%
+    ~50%
+}
+
+::Vertical Space::What property is used to adjust the amount of vertical space that a line of text gets? {
+    =line-height
+    ~letter-spacing
+    ~word-spacing
+    ~text-indent
+}
+
+::Text Size::This property is used to specify how large the text is in an element. {
+    =font-size
+    ~text-size
+    ~font-weight
+    ~text-style
+}
+
+::Fixed Position::Which position value will lock an element to the browser window? {
+    =fixed
+    ~absolute
+    ~relative
+    ~sticky
+}
+
+::Skew Property::Which property is used to skew selected elements along the X or Y axis? {
+    =transform
+    ~rotate
+    ~translate
+    ~scale
+}
+
+::Absolute Positioning::Absolute positioning locks an element in place relative to what? {
+    =Its closest positioned ancestor
+    ~The body element
+    ~The viewport
+    ~Its direct parent
+}
+
+::Animation Rule::This rule is used to specify what happens with an animation through its duration {
+    =@keyframes
+    ~@animation
+    ~@transition
+    ~@move
+}
+
+::Float Property::This property removes an element from the normal flow to the left or right. {
+    =float
+}
+
+::Gradient Function::This is a function that can be assigned as a value to the background property. It takes an argument that specifies the direction colors should flow, and can accept multiple arguments for colors. {
+    =linear-gradient()
+    ~radial-gradient()
+    ~repeating-linear-gradient()
+    ~conic-gradient()
+}
+
+::Relative Positioning::When the position of an element is set to relative, it allows you to specify how CSS should move the element relative to what? {
+    =Its normal position
+    ~The viewport
+    ~Its parent element
+    ~The document body
+}
+
+::CSS3 Color Property::Which property was introduced by CSS3 to be an alternative way to pick a color by directly stating hue, saturation, and lightness? {
+    =hsl()
+    ~rgb()
+    ~hex
+    ~color
+}
+
+::CSS3 Box Shadow::This property is used to add a shadow to an element. {
+    =box-shadow
+    ~text-shadow
+    ~shadow
+    ~element-shadow
+}
+
+::CSS Rounded Circle::What percentage do you use for the border-radius property to make a perfect circle? {#50}
+
+::Text-Shadow for Depth::True or False: The text-shadow property in CSS is used to apply shadow to text, providing depth and making the text stand out. {T}
+
+::Box-Shadow for 3D Appearance::True or False: The box-shadow property cannot be used to create a 3D appearance of elements by applying shadow effects. {F}
+
+::RGBA for Transparency::True or False: The RGBA color format in CSS allows for specifying colors with transparency, where 'A' stands for alpha and controls the opacity. {T}
+
+::Linear Gradient as Background::True or False: CSS does not allow creating a linear gradient as the background of an element. {F}
+
+::Transform Scale::True or False: The transform property with scale value in CSS is used to change the size of an element on the web page. {T}
+
+::Flexbox for Page Layout::True or False: CSS Flexbox is not suitable for designing flexible and responsive page layouts. {F}
+
+::Animation Property::True or False: CSS animations cannot animate changes from one style configuration to another. {F}
+
+::Custom Fonts::True or False: You can use the @font-face rule in CSS to define and use custom fonts in a webpage. {T}
+
+::Z-Index for Element Stacking::True or False: The z-index property in CSS is used to control the vertical stacking order of elements that overlap. {T}
+
+::CSS Grid for Complex Layouts::True or False: The CSS Grid Layout is a two-dimensional layout system for the web, making it easier to design web pages without having to use floats and positioning. {T}
+
+::Responsive Images::True or False: CSS cannot be used to make images responsive, ensuring they scale correctly on all devices. {F}
+
+::Variable Declarations::True or False: CSS Variables are not supported, meaning you cannot store values such as colors, font sizes, or spacing in variables for reuse throughout your stylesheet. {F}
+
+::Match CSS Properties to Descriptions::Match the following CSS properties with their correct descriptions. {
+    =color -> Sets the color of text
+    =font-family -> Specifies the font of text
+    =background-image -> Sets an image as the background of an element
+    =border-radius -> Defines the radius of an element's corners to create rounded corners
+    =transition -> Allows control over the speed of animation changes to CSS properties
+}.
+
+::Match Visual Design Concepts with CSS::Match the following concepts with their associated CSS property or technique. {
+    =Typography -> font-family, font-size, font-weight
+    =Color Theory -> color, background-color
+    =Graphics -> background-image, border-image
+    =Animation -> @keyframes, animation
+    =Page Layout -> display (flex, grid), position
+}.
+
+::CSS Techniques for Visual Effects::Match the CSS techniques with their purpose in visual design. {
+    =Linear-gradient() -> Creates a gradient as the background of an element
+    =Box-shadow -> Applies shadow to an element for depth
+    =Opacity -> Controls the transparency of an element
+    =Text-align -> Aligns text to the left, right, center, or justify
+    =Flexbox -> A layout model for arranging elements in complex layouts with ease
+}.

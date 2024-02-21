@@ -1,0 +1,147 @@
+// Module 1 - RWD
+
+// CSS
+
+// $CATEGORY: RWD/CSS
+
+::Font Family::Which CSS property is used to change the font of text? {
+=font-family
+~text-font
+~font-style
+~text-style
+}
+
+::Text Alignment::Which CSS property aligns text to the left, right, center, or justifies it? {
+=text-align
+~align-text
+~text-justify
+~justify-content
+}
+
+// ::CSS Selector::Which symbol is used to select elements by their id? {
+// =#
+// ~\.
+// ~\@
+// ~\!
+// }
+
+::Background Color::Which CSS property is used to set the background color of an element? {
+=background-color
+~color
+~background-image
+~background
+}
+
+::Border Property::Which CSS property adds a border around elements? {
+=border
+~outline
+~edge
+~frame
+}
+
+::Width and Height::Which CSS properties are used to set the width and height of an element? {
+=width and height
+~size and dimension
+~length and breadth
+~thickness and elevation
+}
+
+::Opacity Property::Which CSS property changes the transparency of an element? {
+=opacity
+~transparency
+~alpha
+~clear
+}
+
+::Specificity Rule::In CSS, if two selectors apply to the same element, the one with higher specificity takes precedence. {T}
+
+::External Stylesheet::To link an external CSS stylesheet to an HTML document, use the {
+=link element
+=link
+=<link>
+=<link></link>
+} tag.
+
+::Inline CSS::True or False: Inline CSS has the highest specificity compared to internal and external stylesheets. {T}
+
+::ID Selector::True or False: The ID selector uses the hash \(#\) symbol and is used to target a single, unique element. {T}
+
+::Class Selector Multiple::True or False: A single HTML element can have multiple class names assigned to it. {T}
+
+// ::CSS Comment::CSS comments are written using <code><!-- comment --></code>{F}.
+
+::!important Rule::True or False: The CSS !important rule makes a declaration the most important one, overriding normal specificity rules. {T}
+
+::Box Model Components::Match the following components of the CSS box model with their descriptions. {
+=Content -> The actual content of the box, where text and images appear
+=Padding -> Clears an area around the content
+=Border -> A border that goes around the padding and content
+=Margin -> Clears an area outside the border
+}
+
+::CSS Units::Match the following CSS units with their type. {
+=px -> Absolute unit representing pixels
+=\% -> Relative unit representing a percentage of its parent element
+=em -> Relative unit scalable based on the font size of the element
+=vh -> Relative unit based on 1% of the height of the viewport
+}
+
+::Font Style::To italicize text, which CSS property is used? {
+=font-style
+=font style
+}
+
+::Hover Effect::Which pseudo-class applies a style when the user hovers over an element? {
+=:hover
+}
+
+::Background Image::To set a background image, which property is used? {
+=background-image
+}
+
+::Background Image::You can define a color and an image for the background of an element. {T}
+
+::Max-Width::To prevent a div from stretching beyond 100px, which property is used? {
+=max-width
+}
+
+::Padding Short::To add 10px padding on all sides of an element, which shorthand property is used? {
+=padding
+~padding-all
+~padding-all-sides
+~pad-all
+}
+
+::Margin Auto::To center a block element horizontally, which margin value is used? {
+=auto
+~center
+~middle
+~0
+}
+
+::CSS Comments::Which option correctly represents how to add comments in CSS? {
+~\/\/ This is a comment
+~<\!-- This is a comment -->
+=/* This is a comment */
+~This is a comment
+}
+
+::Animation Property::Which CSS property is used to create animations? {
+=animation
+~transition
+~transform
+~motion
+}
+
+::Relative Positioning::True or False: Relative positioning moves an element in relation to its current position without changing the layout around it. {T}
+
+::Absolute Positioning::True or False: Absolute positioning places an element at a specific position relative to its nearest positioned ancestor. {T}
+
+::CSS Variables::True or False: CSS variables can be used to store and reuse values throughout a stylesheet. {T}
+
+::Pseudo-elements::Match the following pseudo-elements with their purpose. {
+=\:\:after -> Inserts content after an element
+=\:\:before -> Inserts content before an element
+=\:\:first-letter -> Styles the first letter of a block-level element
+=\:\:first-line -> Styles the first line of a block-level element
+}
