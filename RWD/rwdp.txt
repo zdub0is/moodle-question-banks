@@ -3,3 +3,183 @@
 // CSS
 
 $CATEGORY: RWD/RWDP
+
+// Multiple Choice Questions
+::Element's Size in Viewport Units::If I set an element's size to 85 viewport maximum units, that element's size will be: {
+~85% of the width of the viewport
+~85% of the height of the viewport
+~85% of both the width and height of the viewport
+=85% of the viewport's larger dimension (height or width)
+}.
+
+::Responsive Web Design Technique::Introduced in CSS3, which technique changes the presentation of content based on different viewport sizes? {
+~Flexbox
+=Media Queries
+~CSS Grid
+~Selectors
+}.
+
+::Ensuring Element Size::Which CSS property (and value) will ensure that an element never grows larger than its parent container? {
+~max-width: absolute;
+~max-width: parent();
+~max-width: relative;
+=max-width: 100%;
+}.
+
+::Responsive Typography Units::Instead of using em or px to size text, you can use what type of units for responsive typography? {
+~Percentage
+=Viewport
+~Relative
+~Window
+}.
+
+// True or False Questions
+::Media Queries::True or False: Media queries consist of a media type, and if that media type matches the type of device the document is displayed on, new styles are applied. {T}.
+
+::Pixel Density Variation::True or False: Pixel density is an aspect that could vary from device to device. {T}.
+
+::Viewport Units vs Percentages::True or False: Unlike percentages, viewport units are not relative. {F}.
+
+::Retina Display Images::Is it possible for images to appear pixelated on a Retina display? Why or why not? {T}.
+
+::Maintaining Aspect Ratio::After setting the width of a picture, what setting should be given to its height property in order to maintain its original aspect ratio? { =auto }.
+
+::Selectors in Media Query::How many selectors can you place inside of a media query? { =As many as needed }.
+
+::Viewport Width Unit::What is the correct unit used to set an element's viewport width? { =vw }.
+
+::Match Units to Descriptions::Match the following units with their descriptions. {
+=% -> Relative to the size of the parent container
+=vw -> Relative to 1% of the width of the viewport
+=vh -> Relative to 1% of the height of the viewport
+=em -> Relative to the font-size of the element
+}.
+
+::Match Display Types::Match the following display types with their characteristics. {
+=Retina -> Higher pixel density, resulting in sharper images
+=Non-Retina -> Standard pixel density, may display pixelated images if not optimized
+}.
+
+// Multiple Choice Questions
+::Aspect Ratio Control::After setting the width of an element to 50% of the viewport width, what CSS property should be used to maintain its aspect ratio? {
+    ~width: auto;
+    =height: auto;
+    ~height: 50%;
+    ~width: 100%;
+}.
+
+::Flexbox Alignment::Which CSS property is used within Flexbox to align items horizontally in their container? {
+    ~align-items
+    =justify-content
+    ~flex-direction
+    ~flex-wrap
+}.
+
+::CSS Grid Columns::How can you define the number of columns in a CSS Grid layout? {
+    ~grid-template-rows
+    =grid-template-columns
+    ~grid-column-gap
+    ~grid-row
+}.
+
+::Viewport Units for Layout::Viewport units are particularly useful for: {
+    ~Text size only
+    ~Border widths
+    =Creating responsive layouts that adjust to the screen size
+    ~Defining font colors
+}.
+
+// True or False Questions
+::Flexbox for Responsive Design::True or False: Flexbox is specifically designed to provide a more efficient way to lay out, align, and distribute space among items in a container, even when their size is unknown or dynamic. {T}.
+
+::CSS Grid Adaptability::True or False: CSS Grid Layout is not suitable for creating complex responsive designs. {F}.
+
+::Viewport Units Flexibility::True or False: Viewport width (vw) and viewport height (vh) units allow for more flexible and responsive designs compared to pixels (px). {T}.
+
+::Max-width for Responsiveness::True or False: Setting the max-width property of an element ensures that it will not extend beyond the specified value, aiding in the creation of responsive designs. {T}.
+
+// Short Answer Questions
+::Responsive Font Sizing::What CSS unit is recommended for responsive font sizing that adjusts according to the width of the viewport? { =vw }.
+
+// ::Optimal Column Setting::In a responsive design, what CSS property should be used to automatically adjust the number of columns based on the viewport width? { =auto-fit or auto-fill in grid-template-columns }.
+
+// ::Aspect Ratio Feature::Which CSS feature can be used to specify a preferred aspect ratio for boxes in a responsive design? { =aspect-ratio property }.
+
+// ::Media Query Syntax::What is the basic syntax for a media query that changes styles for screens wider than 600px? { =@media (min-width: 600px) }.
+
+// Matching Questions
+::Match Responsive Features to Descriptions::Match the following responsive web design features with their correct descriptions. {
+    =Media Queries -> Allows the application of CSS styles based on device characteristics.
+    =Flexbox -> Provides a flexible way to lay out, align, and distribute space among items in a container.
+    =CSS Grid -> Enables creating complex responsive layouts with rows and columns.
+    =Viewport Units -> Units relative to the size of the viewport, useful for scalable layouts.
+}.
+
+::Match CSS Properties::Match the following CSS properties with their purpose in responsive design. {
+    =max-width -> Prevents elements from stretching beyond a certain width.
+    =flex-wrap -> Allows Flex items to wrap onto multiple lines.
+    =grid-template-columns -> Defines the number and size of columns in a grid layout.
+    =font-size (with vw unit) -> Adjusts the text size based on the viewport width.
+}.
+
+// Multiple Choice Questions
+::Media Query Breakpoints::When designing a responsive layout, what is the purpose of setting breakpoints in media queries? {
+    ~To fix bugs at specific screen sizes
+    =To apply different styles depending on the screen size
+    ~To stop the page from loading on smaller devices
+    ~To enhance graphics for Retina displays
+}.
+
+::Best Practice for Fonts::Which unit is best for making the font size responsive to the viewport size? {
+    ~Pixels (px)
+    ~Points (pt)
+    =Viewport width (vw)
+    ~Ems (em)
+}.
+
+::Responsive Images::To make an image responsive and ensure it scales with the viewport, which property and value should be used? {
+    ~width: 100px;
+    ~height: auto;
+    =width: 100%;
+    ~max-width: 100%;
+}.
+
+::Viewport Meta Tag::What does the viewport meta tag do? {
+    ~Forces the browser to use a specific engine
+    ~Defines the initial scale of the website
+    =Controls the page's dimensions and scaling on various devices
+    ~Locks the orientation of the device
+}.
+
+// True or False Questions
+::Fluid Grids::True or False: Fluid grid layouts use percentages for widths, enabling the layout to resize with the browser window. {T}.
+
+::Media Queries and Older Browsers::True or False: Older browsers automatically interpret and apply styles from media queries. {F}.
+
+::Max-Width in Responsive Design::True or False: Using max-width for images makes them responsive by allowing them to scale down on smaller screens. {T}.
+
+::Viewport Units for Margin and Padding::True or False: Viewport units (vw, vh) can be used for margins and padding to create spacing that adjusts with the viewport size. {T}.
+
+// Short Answer Questions
+::Relative Unit for Text Sizing::For responsive typography, which relative unit adjusts size based on the parent element's font size? { =em }.
+
+// ::Purpose of Min-Width in Media Query::What does the min-width feature in a media query do? { =Specifies the minimum width at which the styles should apply }.
+
+::Flexbox or Grid for Layout::Which CSS layout model provides more direct control over column spacing and alignment: Flexbox or Grid? { =Grid }.
+
+// ::Handling High-Resolution Displays::How should images be served to support both standard and high-resolution displays? { =Use the srcset attribute with different image resolutions }.
+
+// Matching Questions
+::Match Properties to Responsive Techniques::Match the following CSS properties to their role in responsive web design. {
+    =flex-grow -> Allows flex items to grow to fill available space
+    =max-width -> Ensures an element's maximum width does not exceed a specified value
+    =media queries -> Applies different styles based on device characteristics
+    =relative units (%, vw, vh, em) -> Scales elements relative to their container or viewport size
+}.
+
+::Match Concepts to Definitions::Match the following responsive design concepts with their definitions. {
+    =Responsive Web Design -> An approach aimed at creating sites to provide an optimal viewing experience across a wide range of devices
+    =Fluid Layout -> Uses relative units for all container widths, so they adapt to any screen size
+    =Adaptive Design -> Uses static layouts based on breakpoints that don't respond once loaded
+    =Mobile First -> Starts the design process with the mobile view as the default before scaling up to larger screens
+}.

@@ -3,3 +3,169 @@
 // CSS
 
 $CATEGORY: RWD/FB
+
+// Multiple Choice Questions
+::Flex Container Creation::Which CSS property (and value) is used to turn an element into a flex container? {
+    ~display: block
+    =display: flex
+    ~display: grid
+    ~display: none
+}
+
+::Flex Direction Right to Left::To arrange elements inside of a container from right to left, which value should be given to the flex-direction property? {
+    ~row
+    =row-reverse
+    ~column
+    ~column-reverse
+}
+
+::Align Items Vertically::Which value of the align-items property aligns items vertically in a flex container? {
+    ~flex-start
+    ~flex-end
+    =stretch
+    ~baseline
+}
+
+::Invalid Flex Wrap Value::Which of the following is NOT a valid value for the flex-wrap property? {
+    ~nowrap
+    ~wrap
+    ~wrap-reverse
+    =nowrap-reverse
+}
+
+// True or False Questions
+::Flex-grow Default::True or False: By default, the flex-grow property for a flex item is set to 1. {F}
+
+::Flex Direction Default::True or False: The default value of the flex-direction property is row. {T}
+
+::Align-self on Flex Container::True or False: The align-self property can be applied to a flex container to align all its items at once. {F}
+
+::Flex-shrink Negative Values::True or False: The flex-shrink property can accept negative values. {F}
+
+// Short Answer Questions
+::Flex-flow Combination::What CSS property is a shorthand for the flex-direction and flex-wrap properties combined? {=flex-flow}
+
+::Flex Item Order::Which CSS property changes the order of flex items in their container? {=order}
+
+::Flex Basis::What CSS property sets the initial size of a flex item? {=flex-basis}
+
+::Justify-content Space Distribution::What property is used to distribute space between and around flex items along the main axis? {=justify-content}
+
+// Matching Questions
+::Match Flex Properties to Descriptions::Match the flex properties to their correct descriptions. {
+    =flex-direction -> Specifies how flex items are placed in the flex container defining the main axis and the direction (normal or reversed).
+    =justify-content -> Aligns flex items along the main axis of the current line of the flex container.
+    =align-items -> Aligns flex items along the cross axis of the current line of the flex container.
+    =flex-wrap -> Specifies whether flex items are forced onto one line or can wrap onto multiple lines.
+}
+
+
+// Multiple Choice Questions
+::Flex Basis Default Value::What is the default value of the flex-basis property for a flex item? {
+    ~auto
+    =0%
+    ~100%
+    ~content
+}
+
+::Flex-grow Property Function::What does the flex-grow property do for a flex item? {
+    ~Shrinks it relative to the rest of the flex items
+    =Allows it to grow if necessary
+    ~Keeps it at its base size
+    ~Makes it the dominant item in the flex container
+}
+
+::Align-content for Multiple Lines::Which property aligns flex lines within a flex container when there is extra space in the cross-axis? {
+    ~align-items
+    =align-content
+    ~justify-content
+    ~flex-start
+}
+
+::Flex-shrink Default::What is the default value of the flex-shrink property for a flex item? {
+    ~1
+    ~0
+    =2
+    ~3
+}
+
+// True or False Questions
+::Flex-wrap Default::True or False: The default value of the flex-wrap property is wrap. {F}
+
+::Justify-content Affects Cross Axis::True or False: The justify-content property aligns items along the cross-axis. {F}
+
+::Align-items Stretch::True or False: The align-items property can stretch items to fill the container. {T}
+
+::Flex-direction Column-reverse::True or False: Setting flex-direction to column-reverse arranges items from bottom to top. {T}
+
+// Short Answer Questions
+::Flex Container Display::What value must the display property of an element be set to in order to create a flex container? {=flex}
+
+::Flex-direction for Top to Bottom::What value should be given to the flex-direction property to arrange elements from top to bottom inside a container? {=column}
+
+::Main Axis Alignment::What flex container property is used for aligning items along the main axis? {=justify-content}
+
+::Cross Axis Alignment::What property aligns items along the cross axis in a flex container? {=align-items}
+
+// Matching Questions
+::Match Flexbox Concepts::Match the following concepts with their definitions. {
+    =Flexbox -> A layout model that allows items in a container to be laid out in any direction and to have their spacing and alignment controlled.
+    =Main Axis -> The primary axis along which flex items are laid out.
+    =Cross Axis -> The axis perpendicular to the main axis.
+    =Flex Item -> A direct child of a flex container.
+}
+
+// Multiple Choice Questions
+::Flex-grow Influence::How does the flex-grow property affect a flex item within a flex container? {
+    ~It sets the item to a fixed size regardless of the container size.
+    =It allows the item to grow to fill available space.
+    ~It prevents the item from growing beyond its initial size.
+    ~It decreases the item's size based on its flex-shrink value.
+}
+
+::Align-items Default Value::What is the default value of the align-items property in a flex container? {
+    ~stretch
+    ~baseline
+    =flex-start
+    ~center
+}
+
+::Justify-content Alignment::Which justify-content value spaces items evenly, including between the edges of the container and the items? {
+    ~space-between
+    =space-evenly
+    ~space-around
+    ~flex-start
+}
+
+::Flex Direction for Column Layout::To display flex items in a column layout, which value should be used for the flex-direction property? {
+    ~row
+    ~row-reverse
+    =column
+    ~column-reverse
+}
+
+// True or False Questions
+::Align-self Overrides Align-items::True or False: The align-self property allows an individual flex item to override the align-items property of the container. {T}
+
+::Flex-wrap Wraps Reverse::True or False: The flex-wrap property can be set to wrap-reverse to wrap items onto multiple lines from bottom-to-top. {T}
+
+::Flex Basis Auto Size::True or False: The default value of flex-basis is set to auto, meaning the size of the flex item is determined by its content. {T}
+
+::Justify-content Vertical Alignment::True or False: The justify-content property is used to align items vertically within a flex container. {F}
+
+// Short Answer Questions
+// ::Flex-wrap Property Function::What is the purpose of the flex-wrap property in a flex container? {=To allow the items to wrap onto multiple lines as needed}
+
+::Flex Direction Control::What property controls the direction of flex items in a container? {=flex-direction}
+
+::Flex Container Minimum Size::What property on a flex item can prevent it from shrinking below a certain size? {=flex-basis}
+
+// ::Align-content vs. Align-items::What is the difference between align-content and align-items in a flex container? {=align-content aligns lines of items when there is extra space in the cross-axis, while align-items aligns items within a single line}
+
+// Matching Questions
+::Flex Properties and Their Functions::Match the flexbox properties to their functions. {
+    =flex-direction -> Determines the direction flex items are placed in the container.
+    =flex-wrap -> Specifies whether items should wrap or not.
+    =align-content -> Aligns flex lines within the flex container when there is extra space in the cross-axis.
+    =align-self -> Allows an individual flex item to align itself differently from the rest of the items.
+}
